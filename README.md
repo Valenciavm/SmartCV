@@ -1,47 +1,30 @@
-# 🚀 SmartCV
+# 📱 SmartCV — App Inteligente de Currículum Vitae
 
-**SmartCV** es una aplicación inteligente para la generación automática de currículums (CVs) personalizados, diseñada para ayudarte a destacar tus habilidades, experiencia y logros de manera clara, moderna y eficaz. Ideal para desarrolladores, diseñadores, freelancers y cualquier profesional que busque una presentación profesional de su perfil.
-
----
-
-## 🧠 Características principales
-
-- 📄 **Generación automática de CVs** a partir de datos estructurados o formularios interactivos.
-- 🎨 **Plantillas modernas y personalizables** para diferentes industrias.
-- 🌐 **Exportación a PDF** con estilos consistentes.
-- 🔍 **Optimización para ATS (Applicant Tracking Systems)**.
-- 🛠️ **Interfaz amigable** y fluida basada en tecnologías modernas.
-- 🧬 **Soporte para múltiples idiomas** *(en desarrollo)*.
+**SmartCV** es una aplicación móvil creada para **Magneto** que permite generar CVs consistentes y profesionales a partir de múltiples fuentes: fotos físicas, archivos digitales ¡e incluso texto escrito a mano o dictado por voz! Combinamos OCR, IA, procesamiento de lenguaje natural y diseño para ayudarte a destacar.
 
 ---
 
-## 📸 Capturas de pantalla
+## 🧠 ¿Qué hace SmartCV?
 
-> *(Agrega aquí imágenes o GIFs del producto en acción)*
-
----
-
-## 🏗️ Tecnologías utilizadas
-
-- **Frontend**: React.js / TailwindCSS
-- **Backend**: Node.js / Express *(opcional si usa backend)*
-- **PDF Generator**: [html-pdf], [puppeteer] o similar
-- **Otras**: Markdown, JSON templates, etc.
+- 📷 **Escanea CVs físicos** con la cámara del teléfono
+- ✍️ **Interpreta texto manuscrito**
+- 🗣️ **Convierte voz a texto** con tecnología *Text-to-Speech*
+- 🤖 **Corrige ortografía y gramática** usando **OpenAI**
+- 🖋️ **Genera un nuevo CV en una plantilla moderna y consistente**
+- 🧾 Guarda el CV en formato digital o lo comparte fácilmente
 
 ---
 
-## 📦 Instalación local
+## 🛠️ Tecnologías utilizadas
+
+- **Frontend móvil**: Flutter
+- **Backend**: Django
+- **Base de datos local**: SQLite
+- **OCR**: Google ML Kit
+- **Audio**: Speech-to-Text
+- **AI & NLP**: OpenAI API
+- **Corrección gramatical & estilo**: OpenAI + reglas personalizadas
+
+---
 
 ```bash
-# 1. Clonar el repositorio
-git clone https://github.com/tuusuario/smartcv.git
-
-# 2. Entrar al proyecto
-cd smartcv
-
-# 3. Instalar dependencias
-npm install
-
-# 4. Ejecutar en desarrollo
-npm run dev
-
