@@ -1,4 +1,4 @@
-# 📱 SmartCV — App Inteligente de Currículum Vitae
+# 📱 SmartCV — App Inteligente de Currículums
 
 **SmartCV** es una aplicación móvil creada para **Magneto** que permite generar CVs consistentes y profesionales a partir de múltiples fuentes: fotos físicas, archivos digitales ¡e incluso texto escrito a mano o dictado por voz! Combinamos OCR, IA, procesamiento de lenguaje natural y diseño para ayudarte a destacar.
 
